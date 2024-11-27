@@ -1,0 +1,206 @@
+header{
+    background-color: green;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+    color: white !important;
+}
+.c_toggler{
+    outline: 1px solid white;
+}
+.c_toggler:focus{
+    outline: none;
+    border: 1px solid white;
+}
+.menu ul li a{
+    color: white !important;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 25px 12px !important;
+}
+.menu ul li a:active{
+    color: red !important;
+    font-weight: 700px !important;
+}
+
+/* =======================counter start=================== */
+.cm_padding{
+    padding: 100px 0;
+}
+.counter_wrapper{
+    background-color: green;
+}
+.cm_h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    /* padding: 100px 0; */
+    margin-bottom: 35px;
+}
+.cm_p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.c_content{
+    padding: 40px 0;
+}
+.c_counter{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.c_content p{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    padding: 5px 0;
+}
+
+/* slick custom css */
+.slick-dots li button:before{
+    font-size: 8px;
+    opacity: .30;
+    color: white;
+}
+.slick-dots li.slick-active button:before{
+    opacity: .80;
+    color: white;
+}
+
+/* owl */
+
+.owl_item{
+    margin-left: 5px;
+}
+
+/* swiper */
+.swiper {
+    width: 600px;
+    height: 400px;
+  }
+
+  /* curved text css */
+  .curv_img{
+    background-image: url("../images/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #text1
+    {
+    /* margin: 3.0em 0.0em; */
+    overflow: hidden;
+    font: normal normal normal 3.0em/3.5 'Open Sans Light', sans-serif;
+    color:#ffffff;
+    /* background-color:#3fafee; */
+}
+
+/* load more */
+
+.c_load{
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+/* preload start */
+
+#loading {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    margin-top: 0px;
+    top: 0px;
+  }
+  #loading-center {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  #loading-center-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: -75px;
+    margin-left: -75px;
+  }
+  .object {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    float: left;
+    margin-right: 20px;
+    margin-top: 65px;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+  }
+  
+  #object_one {
+    -webkit-animation: object_one 1.5s infinite;
+    animation: object_one 1.5s infinite;
+  }
+  #object_two {
+    -webkit-animation: object_two 1.5s infinite;
+    animation: object_two 1.5s infinite;
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+  }
+  #object_three {
+    -webkit-animation: object_three 1.5s infinite;
+    animation: object_three 1.5s infinite;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  
+  @-webkit-keyframes object_one {
+    75% {
+      -webkit-transform: scale(0);
+    }
+  }
+  
+  @keyframes object_one {
+    75% {
+      transform: scale(0);
+      -webkit-transform: scale(0);
+    }
+  }
+  
+  @-webkit-keyframes object_two {
+    75% {
+      -webkit-transform: scale(0);
+    }
+  }
+  
+  @keyframes object_two {
+    75% {
+      transform: scale(0);
+      -webkit-transform: scale(0);
+    }
+  }
+  
+  @-webkit-keyframes object_three {
+    75% {
+      -webkit-transform: scale(0);
+    }
+  }
+  
+  @keyframes object_three {
+    75% {
+      transform: scale(0);
+      -webkit-transform: scale(0);
+    }
+  }
+
+  /* preload end */
+  
